@@ -14,8 +14,6 @@ else:
 
 model = pickle.load(open('ClassificationModel.pkl', 'rb'))
 
-m
-
 
 @app.route('/')
 def index():
